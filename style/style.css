@@ -1,0 +1,9 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Playfair+Display:wght@600&family=Poppins:wght@400;500;800&family=Roboto&family=Roboto+Slab&display=swap");
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+.font {
+  font-size: 50px;
+}
