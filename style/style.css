@@ -8,22 +8,30 @@
   font-size: 50px;
 }
 .round {
-  border-radius: 15px;
   background-color: lightyellow;
+  border-radius: 15px;
+  transition: transform 1s;
+}
+.round:hover {
+  transform: scale(1.1);
 }
 .special {
   border-radius: 15px;
   background-color: #5bb4b0;
   color: white;
+  transition: transform 1s;
 }
-.transform {
-  transition: transform 1s ease-out;
-}
-.transform:hover {
-  transform: scaley(0.5rem);
+.special:hover {
+  transform: scale(1.1);
 }
 .bg-color {
   background-color: #fceae8;
+}
+.ask-pic img {
+  transition: transform 1s;
+}
+.ask-pic img:hover {
+  transform: scale(1.1);
 }
 .footer {
   background-color: #0b0d17;
