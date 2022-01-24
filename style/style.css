@@ -22,3 +22,6 @@
 .transform:hover {
   transform: scaley(0.5rem);
 }
+.bg-color {
+  background-color: #fceae8;
+}
